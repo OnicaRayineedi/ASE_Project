@@ -5,10 +5,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ase.smalloven.login"
     android:background="#b5009c9a"
     android:weightSum="1">
-
 
     <LinearLayout
         android:orientation="horizontal"
