@@ -19,7 +19,7 @@ import java.net.URLEncoder;
 public class Login extends AppCompatActivity {
 
     public static String USER = "domain.krishna.travelguide.USER";
-    public static boolean isValid = false;
+    public static boolean isValid = true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
