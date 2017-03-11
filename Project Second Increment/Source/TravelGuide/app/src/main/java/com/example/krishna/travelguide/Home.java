@@ -19,11 +19,11 @@ public class Home extends AppCompatActivity {
         TextView txtname=(TextView) findViewById(R.id.name);
         setSupportActionBar(toolbar);
         Intent intent = getIntent();
-        if (intent.getStringExtra(Login.USER) != null)
+        if (intent.getStringExtra(Login.USER) != user)
         {
             USER = intent.getStringExtra(Login.USER);
         }
-        else if (intent.getStringExtra(MySchedule.USER) != null)
+        else if (intent.getStringExtra(MySchedule.USER) != user)
         {
             USER = intent.getStringExtra(MySchedule.USER);
         }
