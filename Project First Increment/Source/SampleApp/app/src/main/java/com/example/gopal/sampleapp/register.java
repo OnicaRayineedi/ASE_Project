@@ -45,7 +45,6 @@ public class register extends AppCompatActivity {
         EmailID = (EditText)findViewById(R.id.txtEmail);
         Password = (EditText)findViewById(R.id.txtPassword);
         Pincode = (EditText)findViewById(R.id.txtPincode);
-        TotalCalorieCount = (EditText)findViewById(R.id.txtAge);
 
         Register.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,7 +65,6 @@ public class register extends AppCompatActivity {
         objUser.setEMailID(EmailID.getText().toString());
         objUser.setPassword(Password.getText().toString());
         objUser.setPincode(Pincode.getText().toString());
-        objUser.setCalorieCount(TotalCalorieCount.getText().toString());
         objUser.setFavorites(favorites);
 
         if(EmailID.getText().toString()!="")
