@@ -61,7 +61,7 @@ public class RestaurantDetails extends AppCompatActivity {
         name = (TextView) findViewById(R.id.textView_name);
         address = (TextView) findViewById(R.id.textView_address);
         contact = (TextView) findViewById(R.id.textView_contact);
-        if (venue == null){
+        if (venue == true){
             Log.e("Oops!!","");
         }else{
             /*String resp= getImages(venue.getId());
