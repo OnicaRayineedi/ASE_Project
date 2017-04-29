@@ -9,6 +9,7 @@ android:orientation="horizontal"
 <!-- Image for each ListItem row
 We can refer to images in our drawable folder with
 @drawable/dot for the image named dot.png -->
+
     <ImageView
         android:id="@+id/image_icon"
         android:layout_width="64dp"

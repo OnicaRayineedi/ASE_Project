@@ -22,5 +22,15 @@
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_my_schedule" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Click for Notification"
+        android:id="@+id/buckysButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="buckysButtonClicked"
+        android:layout_gravity="bottom|center"/>
 
 </android.support.design.widget.CoordinatorLayout>
+
