@@ -134,7 +134,7 @@
                 android:id="@+id/trends_img"
                 android:src="@drawable/trends"
                 android:layout_marginLeft="35dp"
-                android:contentDescription="trends"
+                android:contentDescription="Search"
                 android:onClick="getTrends" />
 
         </TableRow>
@@ -152,13 +152,13 @@
             android:layout_column="0" />
 
             <TextView
+                android:id="@+id/textView8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="Search"
                 android:textAlignment="center"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Trends"
-                android:id="@+id/textView8"
-                android:layout_column="1" />
+                android:textAppearance="?android:attr/textAppearanceSmall" />
 
         </TableRow>
 
